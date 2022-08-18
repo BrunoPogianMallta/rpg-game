@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cria Guerreiro</title>
+</head>
+
+<body>
+    <div id='central-painel'>
+        <h2> Crie o personagem</h2>
+        <form id="name-personagem">
+            <label for="">Name</label>
+            <input type="text" id="campo"><br>
+            <label for="class-select">Classe:</label>
+            <select name="class" id="class-select">
+                <option value=""></option>
+                <option value="Warrior">Warrior</option>
+                <option value="Mage">Mage</option>
+            </select>
+            <input type="submit" name="name" value="Criar">
+        </form>
+    </div>
+
+
+    <div id="container-character"></div>
+    </div>
+    <script src="./treta.js" type="module"></script>
+</body>
+
+</html>

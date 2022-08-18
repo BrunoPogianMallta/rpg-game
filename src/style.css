@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#central-painel {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(173, 173, 173);
+    width: 300px;
+    height:200px;
+    text-align: center;
+}
+#container-character{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    border: solid 1px red;
+}
+
+.quadro {
+    margin: 10px  6px;
+    padding: 5px;
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+    border: 1px solid blue;
+    width: 280px;
+}
+.avatar{
+    width: 110px;
+    margin-top: 30px;
+    /* border: solid 1px green; */
+    
+}
+
+img{
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    /* border: solid 1px purple; */
+    
+}
+
+.status {
+    background-color: rgb(97, 95, 95);
+    margin-left: 150px;
+    margin-top:-120px;
+    padding: 8px;
+    width: 100px;
+    height: auto;
+    color: rgb(231, 225, 225);
+}
+
+.personagem-status {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

@@ -1,0 +1,18 @@
+#box-login{
+    display:inline-block;
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 20%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+#box-login input{
+    margin-top: 5px;
+}
+
+#box-login button{
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 10px;
+}
